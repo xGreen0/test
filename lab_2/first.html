@@ -1,9 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
 <style>
-	h1, h2, h3, p {
-	text-align: center;
-	}
+    * {
+        font-family: 'PT sans', Arial, sans-serif;
+    }
+
+    h1, h2, h3, p {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        display: block;
+        width: 40%;
+        margin: auto;
+    }
+
+    #link {
+        height: 150px;
+        background: #804848;
+        color: #fff;
+        padding: 30px;
+        padding-top: 85px;
+        transition: all 0.3s;
+        border-radius: 20px;
+        font-size: 40px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #link:hover {
+        background: #9AA3EA;
+    }
+
+    #link span {
+        border-bottom: 1px solid #fff;
+    }
+
+    #link:hover span {
+        border-color: transparent;
+    }
 </style>
 <h1> First change </h1>
+
 <h2> Second changes </h2>
 
 <p> some added text for lab 2 </p>
@@ -22,3 +62,10 @@
         <td></td>
     </tr>
 </table>
+
+<a href="second.html">
+    <div id="link"><span>link on second.html</span></div>
+</a>
+
+</body>
+</html>
